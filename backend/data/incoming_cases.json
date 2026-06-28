@@ -1,0 +1,67 @@
+[
+  {
+    "case_id": "TEMP001",
+    "patient_name": "John Doe",
+    "age": 45,
+    "gender": "Male",
+    "drug": "Paracetamol",
+    "reaction": "Severe Skin Rash",
+    "event_date": "2025-06-10",
+    "report_text": "Patient developed severe skin rash after taking Paracetamol.",
+    "_expected_decision": "Duplicate",
+    "_expected_match": "CASE001 or CASE014",
+    "_scenario": "Near-identical to CASE001/CASE014 – should be flagged as Duplicate"
+  },
+  {
+    "case_id": "TEMP002",
+    "patient_name": "Sarah Wilson",
+    "age": 43,
+    "gender": "Female",
+    "drug": "Metformin",
+    "reaction": "Nausea and Acidosis",
+    "event_date": "2025-03-05",
+    "report_text": "Diabetic female on Metformin developed nausea and signs of metabolic acidosis.",
+    "_expected_decision": "Possible Duplicate",
+    "_expected_match": "CASE006",
+    "_scenario": "Similar to CASE006 but different reaction wording and date – Possible Duplicate"
+  },
+  {
+    "case_id": "TEMP003",
+    "patient_name": "Yusuf Al-Rashid",
+    "age": 28,
+    "gender": "Male",
+    "drug": "Doxycycline",
+    "reaction": "Photosensitivity",
+    "event_date": "2025-06-20",
+    "report_text": "Male patient developed severe sunburn-like photosensitivity reaction on face and arms after starting Doxycycline for acne treatment.",
+    "_expected_decision": "Unique Case",
+    "_expected_match": "None",
+    "_scenario": "Completely unique drug and reaction – should be Unique Case"
+  },
+  {
+    "case_id": "TEMP004",
+    "patient_name": "Emily Davies",
+    "age": 30,
+    "gender": "Female",
+    "drug": "Amoxicillin",
+    "reaction": "Severe Allergic Reaction",
+    "event_date": "2025-01-12",
+    "report_text": "Young female experienced severe allergic reaction after taking Amoxicillin antibiotic.",
+    "_expected_decision": "Possible Duplicate",
+    "_expected_match": "CASE004",
+    "_scenario": "Similar to CASE004 but reaction described differently – borderline Possible Duplicate"
+  },
+  {
+    "case_id": "TEMP005",
+    "patient_name": "Robert J",
+    "age": 62,
+    "gender": "Male",
+    "drug": "Warfarin",
+    "reaction": "Brain Bleed",
+    "event_date": "2024-11-22",
+    "report_text": "Male patient on Warfarin suffered intracranial bleeding with sudden headache and neurological deficit.",
+    "_expected_decision": "Duplicate",
+    "_expected_match": "CASE003",
+    "_scenario": "Same patient, drug, reaction and date as CASE003 – should be Duplicate"
+  }
+]

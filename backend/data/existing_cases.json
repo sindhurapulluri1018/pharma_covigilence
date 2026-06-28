@@ -1,0 +1,552 @@
+[
+  {
+    "case_id": "CASE001",
+    "patient_name": "John Doe",
+    "age": 45,
+    "gender": "Male",
+    "drug": "Paracetamol",
+    "reaction": "Severe Skin Rash",
+    "event_date": "2025-06-08",
+    "report_text": "Patient developed severe skin rash approximately two days after initiating Paracetamol therapy for fever management."
+  },
+  {
+    "case_id": "CASE002",
+    "patient_name": "Jane Smith",
+    "age": 38,
+    "gender": "Female",
+    "drug": "Ibuprofen",
+    "reaction": "Gastrointestinal Bleeding",
+    "event_date": "2025-03-15",
+    "report_text": "Female patient reported upper GI bleeding with hematemesis after seven days of Ibuprofen use for chronic back pain."
+  },
+  {
+    "case_id": "CASE003",
+    "patient_name": "Robert Johnson",
+    "age": 62,
+    "gender": "Male",
+    "drug": "Warfarin",
+    "reaction": "Intracranial Hemorrhage",
+    "event_date": "2024-11-20",
+    "report_text": "Elderly male on long-term Warfarin anticoagulation presented with sudden onset severe headache and confusion. CT scan confirmed intracranial hemorrhage."
+  },
+  {
+    "case_id": "CASE004",
+    "patient_name": "Emily Davis",
+    "age": 29,
+    "gender": "Female",
+    "drug": "Amoxicillin",
+    "reaction": "Anaphylaxis",
+    "event_date": "2025-01-10",
+    "report_text": "Young female experienced acute anaphylactic reaction within 15 minutes of first dose of Amoxicillin. Treated with epinephrine in emergency department."
+  },
+  {
+    "case_id": "CASE005",
+    "patient_name": "Michael Brown",
+    "age": 54,
+    "gender": "Male",
+    "drug": "Atorvastatin",
+    "reaction": "Rhabdomyolysis",
+    "event_date": "2024-09-05",
+    "report_text": "Patient on Atorvastatin 40mg daily presented with severe muscle pain and dark urine. CK levels markedly elevated. Diagnosis of rhabdomyolysis confirmed."
+  },
+  {
+    "case_id": "CASE006",
+    "patient_name": "Sarah Wilson",
+    "age": 41,
+    "gender": "Female",
+    "drug": "Metformin",
+    "reaction": "Lactic Acidosis",
+    "event_date": "2025-02-28",
+    "report_text": "Diabetic female on Metformin 1000mg twice daily developed nausea, vomiting and weakness. Laboratory findings consistent with lactic acidosis."
+  },
+  {
+    "case_id": "CASE007",
+    "patient_name": "David Martinez",
+    "age": 33,
+    "gender": "Male",
+    "drug": "Ciprofloxacin",
+    "reaction": "Tendon Rupture",
+    "event_date": "2024-12-03",
+    "report_text": "Male patient developed spontaneous Achilles tendon rupture after 10 days of Ciprofloxacin therapy for urinary tract infection."
+  },
+  {
+    "case_id": "CASE008",
+    "patient_name": "Lisa Anderson",
+    "age": 67,
+    "gender": "Female",
+    "drug": "Lisinopril",
+    "reaction": "Angioedema",
+    "event_date": "2025-04-12",
+    "report_text": "Elderly female on Lisinopril for hypertension presented to emergency with rapidly progressing facial and tongue swelling. Airway management required."
+  },
+  {
+    "case_id": "CASE009",
+    "patient_name": "James Taylor",
+    "age": 48,
+    "gender": "Male",
+    "drug": "Metoprolol",
+    "reaction": "Severe Bradycardia",
+    "event_date": "2025-05-20",
+    "report_text": "Patient taking Metoprolol for atrial fibrillation developed symptomatic bradycardia with heart rate of 32 bpm requiring temporary pacing."
+  },
+  {
+    "case_id": "CASE010",
+    "patient_name": "Patricia Lee",
+    "age": 55,
+    "gender": "Female",
+    "drug": "Paracetamol",
+    "reaction": "Acute Liver Failure",
+    "event_date": "2025-06-01",
+    "report_text": "Female patient presented with jaundice and coagulopathy. History revealed intentional overdose of Paracetamol with total ingestion of 20g over 24 hours."
+  },
+  {
+    "case_id": "CASE011",
+    "patient_name": "Christopher Garcia",
+    "age": 72,
+    "gender": "Male",
+    "drug": "Digoxin",
+    "reaction": "Digoxin Toxicity",
+    "event_date": "2024-10-18",
+    "report_text": "Elderly male on Digoxin for heart failure developed nausea, yellow-green visual disturbances and complete heart block. Serum digoxin level markedly elevated."
+  },
+  {
+    "case_id": "CASE012",
+    "patient_name": "Barbara White",
+    "age": 36,
+    "gender": "Female",
+    "drug": "Isotretinoin",
+    "reaction": "Severe Depression",
+    "event_date": "2025-01-25",
+    "report_text": "Young female on Isotretinoin for severe acne developed depressive symptoms with suicidal ideation within 6 weeks of treatment initiation."
+  },
+  {
+    "case_id": "CASE013",
+    "patient_name": "Daniel Harris",
+    "age": 58,
+    "gender": "Male",
+    "drug": "Clopidogrel",
+    "reaction": "Thrombotic Thrombocytopenic Purpura",
+    "event_date": "2024-08-14",
+    "report_text": "Male patient developed TTP approximately two weeks after starting Clopidogrel post coronary stent placement. Plasmapheresis initiated."
+  },
+  {
+    "case_id": "CASE014",
+    "patient_name": "John D",
+    "age": 46,
+    "gender": "Male",
+    "drug": "Paracetamol",
+    "reaction": "Skin Rash",
+    "event_date": "2025-06-11",
+    "report_text": "Male patient developed widespread skin rash one day after starting Paracetamol for post-operative pain management."
+  },
+  {
+    "case_id": "CASE015",
+    "patient_name": "Nancy Clark",
+    "age": 44,
+    "gender": "Female",
+    "drug": "Sertraline",
+    "reaction": "Serotonin Syndrome",
+    "event_date": "2025-03-08",
+    "report_text": "Female patient developed agitation, hyperthermia, and clonus after Sertraline dose increase. Serotonin syndrome diagnosed and drug discontinued."
+  },
+  {
+    "case_id": "CASE016",
+    "patient_name": "Thomas Lewis",
+    "age": 61,
+    "gender": "Male",
+    "drug": "Furosemide",
+    "reaction": "Severe Hypokalemia",
+    "event_date": "2024-07-22",
+    "report_text": "Hypertensive male on Furosemide presented with muscle weakness and paralysis. Potassium 2.1 mEq/L. Intravenous potassium replacement required."
+  },
+  {
+    "case_id": "CASE017",
+    "patient_name": "Karen Robinson",
+    "age": 27,
+    "gender": "Female",
+    "drug": "Penicillin",
+    "reaction": "Stevens-Johnson Syndrome",
+    "event_date": "2025-02-14",
+    "report_text": "Young female developed blistering mucocutaneous lesions covering 25% BSA after Penicillin course for streptococcal pharyngitis. ICU admission required."
+  },
+  {
+    "case_id": "CASE018",
+    "patient_name": "Mark Walker",
+    "age": 50,
+    "gender": "Male",
+    "drug": "Amiodarone",
+    "reaction": "Pulmonary Toxicity",
+    "event_date": "2024-11-05",
+    "report_text": "Male patient on long-term Amiodarone for ventricular arrhythmia developed progressive dyspnoea and bilateral pulmonary infiltrates. Amiodarone-induced pulmonary toxicity confirmed."
+  },
+  {
+    "case_id": "CASE019",
+    "patient_name": "Sandra Hall",
+    "age": 43,
+    "gender": "Female",
+    "drug": "Carbimazole",
+    "reaction": "Agranulocytosis",
+    "event_date": "2025-04-30",
+    "report_text": "Hyperthyroid female on Carbimazole presented with high fever and sore throat. WBC 0.8 x10^9/L. Agranulocytosis confirmed. Immediate drug withdrawal."
+  },
+  {
+    "case_id": "CASE020",
+    "patient_name": "Paul Young",
+    "age": 39,
+    "gender": "Male",
+    "drug": "Ibuprofen",
+    "reaction": "Acute Renal Failure",
+    "event_date": "2025-01-18",
+    "report_text": "Male patient with mild dehydration developed oliguric acute kidney injury after high-dose Ibuprofen use for sports injury. Creatinine peaked at 5.2 mg/dL."
+  },
+  {
+    "case_id": "CASE021",
+    "patient_name": "Betty King",
+    "age": 70,
+    "gender": "Female",
+    "drug": "Methotrexate",
+    "reaction": "Hepatotoxicity",
+    "event_date": "2024-09-28",
+    "report_text": "Elderly female on Methotrexate for rheumatoid arthritis developed elevated transaminases and biopsy confirmed methotrexate-induced hepatic fibrosis."
+  },
+  {
+    "case_id": "CASE022",
+    "patient_name": "George Wright",
+    "age": 52,
+    "gender": "Male",
+    "drug": "Phenytoin",
+    "reaction": "Drug Reaction with Eosinophilia and Systemic Symptoms",
+    "event_date": "2025-05-07",
+    "report_text": "Male epileptic on Phenytoin developed fever, widespread rash, lymphadenopathy and eosinophilia meeting criteria for DRESS syndrome."
+  },
+  {
+    "case_id": "CASE023",
+    "patient_name": "Dorothy Scott",
+    "age": 34,
+    "gender": "Female",
+    "drug": "Clindamycin",
+    "reaction": "Clostridioides difficile Colitis",
+    "event_date": "2025-03-22",
+    "report_text": "Female patient developed severe watery diarrhoea with abdominal cramps 5 days after completing Clindamycin course. C. difficile toxin positive."
+  },
+  {
+    "case_id": "CASE024",
+    "patient_name": "Kenneth Green",
+    "age": 65,
+    "gender": "Male",
+    "drug": "Amlodipine",
+    "reaction": "Peripheral Oedema",
+    "event_date": "2024-12-19",
+    "report_text": "Hypertensive male on Amlodipine developed bilateral pitting ankle oedema. Cardiac cause excluded. Drug-induced peripheral oedema confirmed."
+  },
+  {
+    "case_id": "CASE025",
+    "patient_name": "Helen Adams",
+    "age": 47,
+    "gender": "Female",
+    "drug": "Venlafaxine",
+    "reaction": "Hypertensive Crisis",
+    "event_date": "2025-01-05",
+    "report_text": "Female patient on Venlafaxine ER developed severe headache with BP 210/120 mmHg. Hypertensive crisis attributed to norepinephrine reuptake inhibition."
+  },
+  {
+    "case_id": "CASE026",
+    "patient_name": "Steven Baker",
+    "age": 57,
+    "gender": "Male",
+    "drug": "Paracetamol",
+    "reaction": "Skin Rash and Urticaria",
+    "event_date": "2025-06-14",
+    "report_text": "Male presented with urticarial rash and pruritis starting 3 days after initiating Paracetamol 1g QDS for osteoarthritis flare."
+  },
+  {
+    "case_id": "CASE027",
+    "patient_name": "Sharon Nelson",
+    "age": 31,
+    "gender": "Female",
+    "drug": "Trimethoprim",
+    "reaction": "Megaloblastic Anaemia",
+    "event_date": "2024-10-10",
+    "report_text": "Female on long-term Trimethoprim prophylaxis developed symptomatic anaemia. Blood film showed megaloblastic changes. Folate supplementation initiated."
+  },
+  {
+    "case_id": "CASE028",
+    "patient_name": "Charles Carter",
+    "age": 76,
+    "gender": "Male",
+    "drug": "Morphine",
+    "reaction": "Respiratory Depression",
+    "event_date": "2025-04-03",
+    "report_text": "Elderly male post-operative patient developed severe respiratory depression with RR 4/min after morphine patient-controlled analgesia. Naloxone administered."
+  },
+  {
+    "case_id": "CASE029",
+    "patient_name": "Donna Mitchell",
+    "age": 49,
+    "gender": "Female",
+    "drug": "Carbamazepine",
+    "reaction": "Hyponatraemia",
+    "event_date": "2024-08-28",
+    "report_text": "Female epileptic on Carbamazepine presented with confusion and seizure recurrence. Sodium 118 mEq/L. SIADH secondary to Carbamazepine confirmed."
+  },
+  {
+    "case_id": "CASE030",
+    "patient_name": "Ronald Perez",
+    "age": 42,
+    "gender": "Male",
+    "drug": "Vancomycin",
+    "reaction": "Red Man Syndrome",
+    "event_date": "2025-02-07",
+    "report_text": "Male patient developed flushing, erythema and hypotension during Vancomycin infusion. Infusion rate slowed and antihistamine administered with resolution."
+  },
+  {
+    "case_id": "CASE031",
+    "patient_name": "Ruth Roberts",
+    "age": 63,
+    "gender": "Female",
+    "drug": "Tamoxifen",
+    "reaction": "Deep Vein Thrombosis",
+    "event_date": "2024-11-11",
+    "report_text": "Female breast cancer patient on adjuvant Tamoxifen developed confirmed DVT in right femoral vein. Anticoagulation commenced."
+  },
+  {
+    "case_id": "CASE032",
+    "patient_name": "Edward Turner",
+    "age": 35,
+    "gender": "Male",
+    "drug": "Allopurinol",
+    "reaction": "Stevens-Johnson Syndrome",
+    "event_date": "2025-05-15",
+    "report_text": "Male gout patient developed severe mucocutaneous blistering reaction 3 weeks after starting Allopurinol. HLA-B*58:01 positive. Critical care admission."
+  },
+  {
+    "case_id": "CASE033",
+    "patient_name": "Virginia Phillips",
+    "age": 28,
+    "gender": "Female",
+    "drug": "Oral Contraceptive Pill",
+    "reaction": "Pulmonary Embolism",
+    "event_date": "2025-01-29",
+    "report_text": "Young female on combined oral contraceptive pill presented with pleuritic chest pain and dyspnoea. CTPA confirmed bilateral pulmonary emboli."
+  },
+  {
+    "case_id": "CASE034",
+    "patient_name": "Larry Campbell",
+    "age": 59,
+    "gender": "Male",
+    "drug": "Atorvastatin",
+    "reaction": "Myopathy",
+    "event_date": "2024-09-17",
+    "report_text": "Male on Atorvastatin 80mg reported progressive proximal muscle weakness and myalgia. CK elevated 10x upper limit. Statin-induced myopathy confirmed."
+  },
+  {
+    "case_id": "CASE035",
+    "patient_name": "Alice Parker",
+    "age": 53,
+    "gender": "Female",
+    "drug": "Lithium",
+    "reaction": "Lithium Toxicity",
+    "event_date": "2025-03-01",
+    "report_text": "Bipolar female on lithium carbonate developed coarse tremor, ataxia and confusion. Serum lithium 2.8 mmol/L. Haemodialysis performed."
+  },
+  {
+    "case_id": "CASE036",
+    "patient_name": "Frank Evans",
+    "age": 66,
+    "gender": "Male",
+    "drug": "Spironolactone",
+    "reaction": "Hyperkalaemia",
+    "event_date": "2024-12-08",
+    "report_text": "Male heart failure patient on Spironolactone presented with weakness and ECG changes. Potassium 6.8 mEq/L. Emergency treatment with calcium gluconate and insulin."
+  },
+  {
+    "case_id": "CASE037",
+    "patient_name": "Carolyn Edwards",
+    "age": 45,
+    "gender": "Female",
+    "drug": "Paracetamol",
+    "reaction": "Cutaneous Rash",
+    "event_date": "2025-06-09",
+    "report_text": "Female patient reported maculopapular rash on trunk and upper limbs appearing 24 hours after starting Paracetamol for dental pain."
+  },
+  {
+    "case_id": "CASE038",
+    "patient_name": "Gary Collins",
+    "age": 37,
+    "gender": "Male",
+    "drug": "Fluoxetine",
+    "reaction": "Mania",
+    "event_date": "2025-02-19",
+    "report_text": "Male patient with depression developed manic episode with grandiosity and decreased sleep two weeks after Fluoxetine initiation."
+  },
+  {
+    "case_id": "CASE039",
+    "patient_name": "Marie Stewart",
+    "age": 71,
+    "gender": "Female",
+    "drug": "Aspirin",
+    "reaction": "Peptic Ulcer Perforation",
+    "event_date": "2024-10-25",
+    "report_text": "Elderly female on long-term low-dose Aspirin presented with peritonitis. Emergency laparotomy confirmed perforated peptic ulcer."
+  },
+  {
+    "case_id": "CASE040",
+    "patient_name": "Raymond Sanchez",
+    "age": 40,
+    "gender": "Male",
+    "drug": "Rifampicin",
+    "reaction": "Orange Discolouration of Body Fluids",
+    "event_date": "2025-04-08",
+    "report_text": "TB patient on Rifampicin reported orange-red discolouration of urine, tears, and sweat. Patient counselled that this is an expected pharmacological effect."
+  },
+  {
+    "case_id": "CASE041",
+    "patient_name": "Janet Morris",
+    "age": 56,
+    "gender": "Female",
+    "drug": "Clozapine",
+    "reaction": "Agranulocytosis",
+    "event_date": "2025-05-25",
+    "report_text": "Schizophrenic female on Clozapine surveillance detected absolute neutrophil count of 0.4 x10^9/L. Clozapine immediately withdrawn. Filgrastim initiated."
+  },
+  {
+    "case_id": "CASE042",
+    "patient_name": "Jack Rogers",
+    "age": 44,
+    "gender": "Male",
+    "drug": "Ibuprofen",
+    "reaction": "GI Haemorrhage",
+    "event_date": "2025-03-18",
+    "report_text": "Male patient developed malaena and haematemesis after two weeks of Ibuprofen use. Endoscopy revealed bleeding duodenal ulcer requiring haemostasis."
+  },
+  {
+    "case_id": "CASE043",
+    "patient_name": "Diane Reed",
+    "age": 60,
+    "gender": "Female",
+    "drug": "Doxorubicin",
+    "reaction": "Cardiomyopathy",
+    "event_date": "2024-07-30",
+    "report_text": "Breast cancer patient developed symptomatic heart failure 6 months post-Doxorubicin chemotherapy. Echo confirmed dilated cardiomyopathy with EF 30%."
+  },
+  {
+    "case_id": "CASE044",
+    "patient_name": "Walter Cook",
+    "age": 48,
+    "gender": "Male",
+    "drug": "Metformin",
+    "reaction": "Gastrointestinal Side Effects",
+    "event_date": "2025-01-12",
+    "report_text": "Type 2 diabetic male developed severe nausea, diarrhoea and abdominal cramps after initiating Metformin 500mg three times daily."
+  },
+  {
+    "case_id": "CASE045",
+    "patient_name": "Judith Morgan",
+    "age": 32,
+    "gender": "Female",
+    "drug": "Lamotrigine",
+    "reaction": "Toxic Epidermal Necrolysis",
+    "event_date": "2025-02-03",
+    "report_text": "Female on Lamotrigine for bipolar disorder developed massive skin detachment affecting over 30% BSA. Burns unit admission. Mortality risk high."
+  },
+  {
+    "case_id": "CASE046",
+    "patient_name": "Henry Bell",
+    "age": 69,
+    "gender": "Male",
+    "drug": "Amoxicillin",
+    "reaction": "Drug Rash",
+    "event_date": "2025-04-20",
+    "report_text": "Elderly male patient developed diffuse maculopapular rash over trunk and limbs 5 days into Amoxicillin course for community-acquired pneumonia."
+  },
+  {
+    "case_id": "CASE047",
+    "patient_name": "Frances Rivera",
+    "age": 51,
+    "gender": "Female",
+    "drug": "Rosiglitazone",
+    "reaction": "Cardiac Failure",
+    "event_date": "2024-09-03",
+    "report_text": "Diabetic female on Rosiglitazone developed new-onset heart failure with bilateral peripheral oedema and pulmonary crackles. Drug discontinued."
+  },
+  {
+    "case_id": "CASE048",
+    "patient_name": "Arthur Cooper",
+    "age": 74,
+    "gender": "Male",
+    "drug": "Gentamicin",
+    "reaction": "Ototoxicity",
+    "event_date": "2024-11-27",
+    "report_text": "Elderly male treated with Gentamicin for septicaemia developed bilateral sensorineural hearing loss. Audiogram confirmed permanent ototoxic damage."
+  },
+  {
+    "case_id": "CASE049",
+    "patient_name": "Rose Richardson",
+    "age": 38,
+    "gender": "Female",
+    "drug": "Ciclosporin",
+    "reaction": "Nephrotoxicity",
+    "event_date": "2025-03-30",
+    "report_text": "Renal transplant female on Ciclosporin developed acute deterioration in graft function. Biopsy showed ciclosporin-induced nephrotoxicity."
+  },
+  {
+    "case_id": "CASE050",
+    "patient_name": "Harold Cox",
+    "age": 55,
+    "gender": "Male",
+    "drug": "Heparin",
+    "reaction": "Heparin-Induced Thrombocytopenia",
+    "event_date": "2024-08-06",
+    "report_text": "Male patient on unfractionated Heparin for DVT developed paradoxical new thrombosis with platelet count falling to 42 x10^9/L. HIT antibodies positive."
+  },
+  {
+    "case_id": "CASE051",
+    "patient_name": "Mildred Ward",
+    "age": 46,
+    "gender": "Female",
+    "drug": "Paracetamol",
+    "reaction": "Allergic Skin Reaction",
+    "event_date": "2025-06-12",
+    "report_text": "Female patient developed itchy erythematous rash on arms and chest beginning 48 hours after Paracetamol use for headache."
+  },
+  {
+    "case_id": "CASE052",
+    "patient_name": "Fred Torres",
+    "age": 63,
+    "gender": "Male",
+    "drug": "Ramipril",
+    "reaction": "Dry Cough",
+    "event_date": "2025-01-08",
+    "report_text": "Hypertensive male developed persistent non-productive dry cough 2 weeks after commencing Ramipril. Cough resolved completely upon switching to Losartan."
+  },
+  {
+    "case_id": "CASE053",
+    "patient_name": "Evelyn Peterson",
+    "age": 59,
+    "gender": "Female",
+    "drug": "Bisoprolol",
+    "reaction": "Bronchospasm",
+    "event_date": "2024-10-14",
+    "report_text": "Asthmatic female inadvertently prescribed Bisoprolol developed acute bronchospasm requiring nebulised bronchodilator therapy in A&E."
+  },
+  {
+    "case_id": "CASE054",
+    "patient_name": "Ernest Gray",
+    "age": 77,
+    "gender": "Male",
+    "drug": "Warfarin",
+    "reaction": "Major Bleeding",
+    "event_date": "2025-04-25",
+    "report_text": "Elderly male on Warfarin for AF developed retroperitoneal haematoma. INR supratherapeutic at 9.4. Vitamin K and PCC administered."
+  },
+  {
+    "case_id": "CASE055",
+    "patient_name": "Ethel James",
+    "age": 35,
+    "gender": "Female",
+    "drug": "Sulfasalazine",
+    "reaction": "Hepatitis",
+    "event_date": "2025-02-25",
+    "report_text": "Female with inflammatory bowel disease developed drug-induced hepatitis within 6 weeks of Sulfasalazine initiation. LFTs normalised after withdrawal."
+  }
+]
